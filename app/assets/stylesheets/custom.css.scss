@@ -1,3 +1,53 @@
 .results-block {
     display: inline-block;
 }
+
+.no-padding {
+    //padding: 0 !important;
+}
+
+.right-padding {
+    //padding-right: 15px !important;
+    //float: right;
+    //margin-right: 15px;
+}
+
+.fl-name {
+    //display: inline-block;
+    display: flex;
+}
+
+.info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info-1 {
+    //display: flex;
+}
+
+.info-2 {
+    //display: flex;
+}
+
+.info-3 {
+    //display: flex;
+}
+
+.logout {
+    padding-left: 0;
+}
+
+.user-name {
+    padding-top: 15px;
+}
+
+.nav.navbar-right li {
+    .btn {
+        color: #fff !important;
+        margin-top: 5%;
+    }
+    .btn-danger:hover {
+        background-color: darken(#d9534f, 20%) !important;
+    }
+}
